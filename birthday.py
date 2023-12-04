@@ -47,7 +47,7 @@ def get_birthdays_per_week(users):
         elif names:
             print(f"{day}: {', '.join(names)}")
 
-# Приклад виклику функції з відповідним списком користувачів
+# Tests examples
 users = [
     {"name": "Bill Gates", "birthday": datetime(1955, 12, 8)},
     {"name": "Jan Koum", "birthday": datetime(2024, 12, 9)},
